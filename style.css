@@ -37,11 +37,12 @@
 
 .resultado{
     text-align: right;
-    background-color: black;
+    background-color: white;
     border-radius: 10px;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-column: 1/5;
+
 
 }
 .texto{
@@ -80,4 +81,9 @@
     justify-content: center;
     align-items: center;    
 
+}
+
+.numCalc{
+    background-color: rgba(179, 178, 178, 0.548);
+    box-shadow: 0 0 0 gray;
 }
