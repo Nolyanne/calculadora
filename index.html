@@ -7,22 +7,23 @@
     </head>
     <body class="body">
         <section class="calc"> 
-            <div class="resultado"><input type="text" class="texto" value="0"></div>
-            <div class="num" onclick=numClicado(7) onkeypress=numMuda()></div>
-            <div class="num">8</div>
-            <div class="num">9</div>
-            <div class="sinal">+</div>
-            <div class="num">4</div>
-            <div class="num">5</div>
-            <div class="num">6</div>
-            <div class="sinal">-</div>
-            <div class="num">1</div>
-            <div class="num">2</div>
-            <div class="num">3</div>
-            <div class="sinal">x</div>
-            <div class="num">0</div>
-            <div class="apagar"><input type="button" class="apagar" value="Clean"></div>
-            <div class="igual"><input type="button" class="igual" value="="></div>
-            <div class="sinal">/</div>
+            <div class="resultado"></div>
+            <button class="num" onclick="numCalc()" >7</button>
+            <button class="num" onclick="numClic('8', 'num1', 'num2', 'sinal')">8</button>
+            <button class="num" onclick="numClic('9', 'num1', 'num2', 'sinal')">9</button>
+            <button class="sinal" onclick="opClic('mais')">+</button>
+            <button class="num" onclick="numClic('4', 'num1', 'num2', 'sinal')">4</button>
+            <button class="num" onclick="numClic('5', 'num1', 'num2', 'sinal')">5</button>
+            <button class="num" onclick="numClic('6', 'num1', 'num2', 'sinal')">6</button>
+            <button class="sinal" onclick="opClic('menos')">-</button>
+            <button class="num" onclick="numClic('1', 'num1', 'num2', 'sinal')">1</button>
+            <button class="num" onclick="numClic('2', 'num1', 'num2', 'sinal')">2</button>
+            <button class="num" onclick="numClic('3', 'num1', 'num2', 'sinal')">3</button>
+            <button class="sinal" onclick="opClic('mult')">x</button>
+            <button class="num" onclick="numClic('0', 'num1', 'num2', 'sinal')">0</button>
+            <button class="apagar" >Clean</button>
+            <button class="igual" onclick="calc(num1, num2, sinal)" >=</button>
+            <button class="sinal" onclick="opClic('div')">/</button>
+
         </section>
     </body>
