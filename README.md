@@ -34,27 +34,34 @@ Ainda estou em processo de aprendizado. A dinâmica do funcionamento da página 
 Para ver como você pode adicionar trechos de código, veja abaixo:
 
 
-```
+```CSS
 
-
-function limpar(){
-    document.getElementsByClassName('resultado').innerHTML = "";
+.num:hover{
+    background-color: rgba(128, 128, 128, 0.603);
+    color: white;
+    font-family: "Fredoka One";
 }
 
-function calc(num1, num2, sinal){
-    
-    if (sinal==='mais'){
-        result = parseint(num1) + parseint(num2);
-    } else if (sinal==='menos'){
-        result = parseint(num1) - parseint(num2);
-    } else if (sinal==='mult'){
-        result = parseint(num1) * parseint(num2);        
-    } else if (sinal==='div'){
-        result = parseint(num1) / parseint(num2);    
-    } else{
-        result = '0';
-        document.getElementsByClassName('resultado').innerHTML = result;
-    }
+
+```
+
+```Javascript
+
+function calc(){
+    const numm1 = parseInt(num1);
+    const numm2 = parseInt(num2);
+    if (sinal=='mais'){
+        result = numm1 + numm2;
+    } else if (sinal=='menos'){
+        result = numm1 - numm2;
+    } else if (sinal=='mult'){
+        result = numm1 * numm2;        
+    } else if (sinal=='div'){
+        result = numm1 / numm2;    
+    } 
+    document.write('resultado') = result;
+    limpar();
+    } 
      
 
 ```
