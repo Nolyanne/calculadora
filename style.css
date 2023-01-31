@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 .body{
-
-    color: white;
     padding: 50px;
-    font-family: "Fredoka One";
+
 }
+
 .calc{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
@@ -32,7 +31,16 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-family: "Fredoka One";
 
+
+}
+
+.num:hover{
+    background-color: rgba(128, 128, 128, 0.603);
+    color: white;
+    font-family: "Fredoka One";
 }
 
 .resultado{
@@ -42,9 +50,8 @@
     grid-column-start: 1;
     grid-column-end: 4;
     grid-column: 1/5;
-
-
 }
+
 .texto{
     background-color: white;
     color: black;
@@ -53,8 +60,8 @@
     height: 50px;
     text-align: right;
     font-family: "Fredoka One";
-
 }
+
 .sinal{
     background-color: yellow;
     border-radius: 10px;
@@ -63,24 +70,48 @@
     justify-content: center;
     align-items: center;   
     color:black;
+    font-family: "Fredoka One";
 }
+
+.sinal:hover{
+    background-color: rgba(255, 255, 0, 0.753);
+    color:black;
+    font-family: "Fredoka One";
+}
+
 .igual{
     background-color: rgb(221, 28, 28);
     border-radius: 10px;
     box-shadow: 2px 3px 4px gray;
     display:flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center; 
+    color:white;  
+    font-family: "Fredoka One";
 
 }
+
+.igual:hover{
+    background-color: rgba(221, 28, 28, 0.829);
+    color:white;
+    font-family: "Fredoka One";
+}
+
 .apagar{
     background-color: rgba(221, 28, 28, 0.678);
     border-radius: 10px;
     box-shadow: 2px 3px 4px gray;
     display:flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center; 
+    font-family: "Fredoka One";   
+    color: white;
+}
 
+.apagar:hover{
+    background-color: rgba(221, 28, 28, 0.425);
+    font-family: "Fredoka One";
+    color: white;
 }
 
 .numCalc{
