@@ -37,14 +37,20 @@ function limpar(){
 function calc(){
     const numm1 = parseInt(num1);
     const numm2 = parseInt(num2);
-    if (sinal=='mais'){
-        result = numm1 + numm2;
+    if (result != '0'){
+        limpar();
+    } else if (sinal=='mais'){
+            result = numm1 + numm2;
     } else if (sinal=='menos'){
-        result = numm1 - numm2;
+            result = numm1 - numm2;
     } else if (sinal=='mult'){
-        result = numm1 * numm2;        
+            result = numm1 * numm2;        
     } else if (sinal=='div'){
-        result = numm1 / numm2;    
+            result = numm1 / numm2;    
     } 
     document.getElementById('resultt').innerHTML = result;
     } 
+
+
+
+
