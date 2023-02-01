@@ -3,19 +3,20 @@ var num2=["0"];
 var sinal=["vazio"];
 var result=0;
 
+
 function numClic(clic){
     if (num1=='0'){
         num1=clic;
-        document.write('resultado') = num1;
+        document.getElementById('resultt').innerHTML = num1;
     } else if (sinal=='vazio'){
             num1=num1+clic;
-            document.write('resultado') = num1;
+            document.getElementById('resultt').innerHTML = num1;
         } else if (num2=='0'){
                 num2=clic;
-                document.write('resultado') = num2;
+                document.getElementById('resultt').innerHTML = num2;
         } else {
             num2=num2+clic;
-            document.write('resultado') = num2;
+            document.getElementById('resultt').innerHTML = num2;
         }
     
     } 
@@ -30,7 +31,7 @@ function limpar(){
     num2="0";
     sinal="vazio";
     result=0;
-    document.write('resultado') = "0";
+    document.getElementById('resultt').innerHTML = 0;
 }
 
 function calc(){
@@ -45,6 +46,5 @@ function calc(){
     } else if (sinal=='div'){
         result = numm1 / numm2;    
     } 
-    document.write('resultado') = result;
-    limpar();
-    }
+    document.getElementById('resultt').innerHTML = result;
+    } 
