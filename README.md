@@ -22,13 +22,12 @@ Esta calculadora deverá realizar operações matemáticas simples, com exposiç
 
 - Marcação HTML5 semântica
 - Propriedades personalizadas CSS
-- Flexbox
 - Grade CSS
 - Javascript
 
 ### O que eu aprendi
 
-Ainda estou em processo de aprendizado. A dinâmica do funcionamento da página ainda não está concluída. 
+Ainda estou em processo de aprendizado. A dinâmica do funcionamento da página  não está concluída. Falta delimitar tamanho das strings e acertar a função limpar quando as opções de botões forem utilizadas erroneamente.
 
 
 Para ver como você pode adicionar trechos de código, veja abaixo:
