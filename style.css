@@ -50,17 +50,14 @@
     grid-column-start: 1;
     grid-column-end: 4;
     grid-column: 1/5;
+    color: black;
+    font-family: "Fredoka One";
+    padding-top: 5%;
+    padding-right: 5%;
+    letter-spacing: 5px;
 }
 
-.texto{
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    width: 400px;
-    height: 50px;
-    text-align: right;
-    font-family: "Fredoka One";
-}
+
 
 .sinal{
     background-color: yellow;
@@ -117,4 +114,11 @@
 .numCalc{
     background-color: rgba(179, 178, 178, 0.548);
     box-shadow: 0 0 0 gray;
+}
+
+.resultt{
+    font-family: "Fredoka One";
+    color: black;
+    font-size: large;
+    vertical-align: bottom;
 }
