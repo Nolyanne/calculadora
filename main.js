@@ -49,6 +49,10 @@ function calc(){
             result = numm1 / numm2;    
     } 
     document.getElementById('resultt').innerHTML = result;
+    num1="0";
+    num2="0";
+    sinal="vazio";
+    result=0;
     } 
 
 
